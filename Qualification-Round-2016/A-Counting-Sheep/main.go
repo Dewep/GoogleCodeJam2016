@@ -34,6 +34,7 @@ func main() {
     for i := 1; i <= T; i++ {
         var N int
         fmt.Scan(&N)
+
         count := sheep(N)
 
         if count <= -1 {
